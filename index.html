@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cajero de Supermercado - Cloud Project</title>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="cajero-container">
+        <header>
+            <h1>Cajero Supermercado Cloud</h1>
+        </header>
+
+        <main>
+            <section class="productos">
+                <h2>Productos</h2>
+                <div class="lista-botones">
+                    <button class="item-btn" data-precio="1.50">Pan (1.50€)</button>
+                    <button class="item-btn" data-precio="2.20">Leche (2.20€)</button>
+                    <button class="item-btn" data-precio="3.00">Manzanas (3.00€)</button>
+                </div>
+            </section>
+
+            <section class="ticket">
+                <h2>Tu Compra</h2>
+                <ul id="lista-ticket">
+                    </ul>
+                <div class="total-container">
+                    <strong>Total: <span id="total-precio">0.00</span>€</strong>
+                </div>
+                <button id="btn-pagar">Pagar y Limpiar</button>
+            </section>
+        </main>
+
+        <footer>
+            <p>Líder: Marcos Fernández | css: Carlos Adrián Vásconez | JS: Alejandro García /p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
