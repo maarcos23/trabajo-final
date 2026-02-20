@@ -1,157 +1,44 @@
-/* Configuración general del cuerpo */
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f0f2f5;
-    display: flex;
-    justify-content: center;
+    font-family: sans-serif;
     padding: 20px;
+    background-color: #eee;
 }
 
-/* Contenedor principal del Cajero */
-.cajero-container {
+.productos {
     background: white;
     padding: 20px;
-    border-radius: 15px;
-    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
-    max-width: 800px;
-    width: 100%;
-}
-
-/* Diseño en columnas (Layout) */
-.cajero-layout {
-    display: flex;
-    gap: 30px;
-    margin-top: 20px;
-}
-
-/* Sección de botones de productos */
-.grid-productos {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 15px;
+    border: 1px solid #ccc;
+    width: 300px;
 }
 
 .btn-producto {
-    padding: 15px;
-    border: none;
-    border-radius: 8px;
-    background-color: #007bff;
-    color: white;
-    font-weight: bold;
-    cursor: pointer;
-    transition: transform 0.2s, background-color 0.2s;
-}
-
-.btn-producto:hover {
-    background-color: #0056b3;
-    transform: scale(1.05);
-}
-
-/* Estilo del Ticket (Papel) */
-.papel-ticket {
-    background-color: #fff;
-    border: 1px solid #ddd;
-    padding: 20px;
-    min-height: 200px;
-    box-shadow: inset 0 0 10px rgba(0,0,0,0.05);
-    font-family: 'Courier New', Courier, monospace;
-}
-
-#lista-compra {
-    list-style: none;
-    padding: 0;
-}
-
-#lista-compra li {
-    border-bottom: 1px dashed #ccc;
-    padding: 5px 0;
-    display: flex;
-    justify-content: space-between;
-}
-
-/* Configuración general del cuerpo */
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f0f2f5;
-    display: flex;
-    justify-content: center;
-    padding: 20px;
-}
-
-/* Contenedor principal del Cajero */
-.cajero-container {
-    background: white;
-    padding: 20px;
-    border-radius: 15px;
-    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
-    max-width: 800px;
+    display: block;
     width: 100%;
-}
-
-/* Diseño en columnas (Layout) */
-.cajero-layout {
-    display: flex;
-    gap: 30px;
-    margin-top: 20px;
-}
-
-/* Sección de botones de productos */
-.grid-productos {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 15px;
-}
-
-.btn-producto {
-    padding: 15px;
-    border: none;
-    border-radius: 8px;
-    background-color: #007bff;
-    color: white;
-    font-weight: bold;
+    padding: 10px;
+    margin-bottom: 10px;
     cursor: pointer;
-    transition: transform 0.2s, background-color 0.2s;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
 }
 
 .btn-producto:hover {
-    background-color: #0056b3;
-    transform: scale(1.05);
+    background: #e9e9e9;
 }
 
-/* Estilo del Ticket (Papel) */
-.papel-ticket {
-    background-color: #fff;
-    border: 1px solid #ddd;
+.ticket {
+    background: #fffbe6;
     padding: 20px;
+    border: 1px solid #d4d4d4;
+    width: 300px;
     min-height: 200px;
-    box-shadow: inset 0 0 10px rgba(0,0,0,0.05);
-    font-family: 'Courier New', Courier, monospace;
 }
 
 #lista-compra {
-    list-style: none;
     padding: 0;
+    list-style: none;
 }
 
 #lista-compra li {
-    border-bottom: 1px dashed #ccc;
-    padding: 5px 0;
-    display: flex;
-    justify-content: space-between;
+    margin-bottom: 5px;
+    font-family: monospace;
 }
-
- /* Botón de Pagar */ #btn-pagar { 
-    width: 100%; 
-    margin-top: 15px; 
-    padding: 12px; 
-    border: none; 
-    background-color: #28a745; 
-    color: white; 
-    font-size: 1.1em; 
-    border-radius: 5px; 
-    cursor: pointer; 
-} 
-#btn-pagar:hover { 
-    background-color: #218838; 
-}  
-/*Estilos finales*/
